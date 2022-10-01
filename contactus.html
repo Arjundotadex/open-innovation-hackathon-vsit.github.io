@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #272727;
+        }
+    </style>
     <title>Contact Us</title>
 </head>
 
@@ -50,8 +55,9 @@
                                         <strong><span style="font-size:150%" ;>M</span>ore</strong>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">About Us</a></li>
-                                        <li><a class="dropdown-item" href="#">Contact US</a></li>
+                                        <li><a class="dropdown-item" href="downloads.html">Downloads</a></li>
+                                        <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="contactus.html">Contact US</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -59,24 +65,40 @@
                     </div>
                 </div>
             </div>
+        </nav>
     </div>
-    </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
     <form>
+ 
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <div align="left" style="width: 800px; margin-left: 30px;">
+                <label for="exampleInputEmail1" class="form-label" style="color: #fff;">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter you email" style="border-radius:10px ;">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <br>
+            <div class="mb-3">
+                <div align="left" style="width: 800px; margin-left: 30px;">
+                    <label for="exampleInputPassword1" class="form-label" style="color: #fff;">Pls Share your
+                        feedback</label><br>
+                    <textarea name="message" id="feedback" cols="105" rows="5" placeholder="enter your feedback" style="border-radius:10px ;"></textarea>
+
+                </div>
+                <br>
+            </div>
+            <div align="left" style="width: 800px; margin-left: 30px;">
+                <button type="button" class="btn btn-warning" style="margin-left: 80%; width: 20%">Submit</button>
+            </div>
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+    </form>
+    <span style="margin-left: 70%;margin-top: 100%;"><img src="boy.gif" height = 300px width= 300px alt="#"></span>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
